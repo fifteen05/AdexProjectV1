@@ -11,8 +11,32 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <h1>This is Contact Us Page</h1>
+    <h1> This is Contact Us Page </h1>
 
+    <br>
+
+    <h2> Contact Us </h2>
+    
+    <h5> We strive to provide the best service we could. </h5>
+    
+    <br>
+      Have some concerns?
+
+        <!-- <a href="mailto:rajiridwan09@gmail.com"> Email Us</a> -->
+    <form action="sendMail;" name="contactForm" id="contactForm" method="post">
+      <button type="button" onclick="sendMail()"> 
+        This Email Us opens a new tab to activate default email client
+      </button>
+    </form>
+
+    <button type="button"> <a href="mailto:rajiridwan09@gmail.com"> 
+      This *Email Us* doesnt open a new tab to activate default email client </a> 
+    </button>
+    <script>
+      function sendMail() {
+        window.open('mailto:rajiridwan09@gmail.com')
+      } 
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="../node_modules/jquery/dist/jquery.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
