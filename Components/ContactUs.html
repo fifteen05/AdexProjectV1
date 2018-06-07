@@ -44,15 +44,23 @@
       
 
         <!-- <a href="mailto:rajiridwan09@gmail.com"> Email Us</a> -->
-    <form action="sendMail;" name="contactForm" id="contactForm" method="post">
-      <button type="button" onclick="sendMail()"> 
-        This Email Us opens a new tab to activate default email client
-      </button>
-    </form>
+    
+    <!-- This Email Us button opens a new tab to activate default email client -->
+    <p>
+        This Email Us button opens a new tab to activate/open default email client
+        <button type="button" onclick="sendMail()"> 
+            EMAIL US
+        </button>
+    </p>
 
-    <button type="button"> <a href="mailto:rajiridwan09@gmail.com"> 
-      This *Email Us* doesnt open a new tab to activate default email client </a> 
-    </button>
+    <!-- This Email Us button opens/activate default email client directly -->
+    <p>
+        This Email Us button opens/activate default email client directly
+        <button type="button"> <a href="mailto:rajiridwan09@gmail.com"> 
+            EMAIL US </a> 
+          </button>
+    </p>
+
     <script>
       function sendMail() {
         window.open('mailto:rajiridwan09@gmail.com')
