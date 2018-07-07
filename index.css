@@ -2,8 +2,18 @@
  * index.css
  * - Add any styles you want here!
  */
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 350;
+  color: #4f5d6e;
+  position: relative;
+  background: rgb(26, 49, 95);
+ 
+}
 
-ul {
+
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,6 +44,11 @@ li a:hover {
 
 .active{
   background-color: #483D8B;
-}
+} */
 
+.navbar-inverse {
+  background-color:#415068;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
  */ */
