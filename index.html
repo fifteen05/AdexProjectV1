@@ -1,35 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<head>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                COLUMN 1
-            </div>
-            <div class="col-sm-4">
-                COLUMN 2
-            </div>
-            <div class="col-sm-4">
-                COLUMN 3
-            </div>
-        </div>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADET!</title>
+
+  <!--  Styles  -->
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+<!--         <a class="navbar-brand" href="#">ADET</a> -->
+      </div>
+      <!--     <ul class="nav navbar-nav">
+      <li class="active"><a href="#review">Review</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+    </ul> -->
+      <ul class="nav navbar-nav navbar-collapse">
+<!--         <li><a class="navbar-brand" href="#">ADET</a> -->
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="Profile.html">Profile</a></li>
+        <li><a href="Services.html">Services</a></li>
+<!--         li><a href="index.html">index</a></li> -->
+        <li><a href="ContactUs.html">Contact</a></li>
+        <li class="active"><a href="index.html">index</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  
+  
+  
+  <div class="form-group">
+     <div class="col-xs-4">
+  <label for="text"> FirstName:</label>
+  <input type="text" class="form-control" id="usr">
+    </div>
+</div>
+<div class="form-group">
+  <div class="col-xs-4">
+  <label for="txt">LastName:</label>
+  <input type="text" class="form-control" id="txt">
+  </div>
+  </div>
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+  
+  
+  
+  
+  <div class="container">
+  <form>
+    <div class="form-group">
+        <label for="comment">Comment: </label> 
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+</div>
+  <!-- Scripts -->
+  <script src="scripts/review.js"></script>
+</body>
+
 </html>
+
