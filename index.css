@@ -3,6 +3,8 @@
  * - Add any styles you want here!
  */
 body {
+  padding: 0;
+  margin: 0;
   font-family: 'PT Sans', sans-serif;
   font-size: 13px;
   font-weight: 350;
@@ -13,42 +15,22 @@ body {
 }
 
 
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #dddddddd;
-  position : fixed;
-  top: 0;
-  width:100%;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 10px 21px;
-  text-decoration: none;
-  
-}
-
-li {
-  float: right;
-  border-left: 1px solid #bbb;
-}
-
-li a:hover {
-    background-color: #daa520;
-    
-}
-
-.active{
-  background-color: #483D8B;
-} */
 
 .navbar-inverse {
   background-color:#415068;
   background-image: none;
   background-repeat: no-repeat;
- }
+  }
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}
+
+
  */ */
