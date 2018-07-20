@@ -1,0 +1,36 @@
+/* /* /**
+ * ContactUs.css
+ * - Add any styles you want here!
+ */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 350;
+  color: #4f5d6e;
+  position: relative;
+  background: rgb(26, 49, 95);
+ 
+}
+
+
+
+.navbar-inverse {
+  background-color:#415068;
+  background-image: none;
+  background-repeat: no-repeat;
+  }
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}
+
+
+ */ */
