@@ -1,5 +1,5 @@
 /* /* /**
- * ContactUs.css
+ * index.css
  * - Add any styles you want here!
  */
 body {
@@ -11,17 +11,25 @@ body {
   color: #4f5d6e;
   position: relative;
   background: rgb(26, 49, 95);
- 
+  
 }
 
 
+a:visited {
+  color: yellow;
+}
 
-.navbar-inverse {
-  background-color:#415068;
-  background-image: none;
-  background-repeat: no-repeat;
-  }
-.nav.navbar-nav {
+/* ::selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255, 0.2);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255, 0.2);
+} */
+/* .nav.navbar-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -31,6 +39,6 @@ body {
         float: none;
     }
 }
+ */
 
-
- */ */
+  
