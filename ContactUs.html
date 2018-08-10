@@ -8,58 +8,59 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/ContactUs.css">
 
     <title>Contact Us</title>
   </head>
   <body>
+    <!-- Nav goes here -->
+    <header>
 
-    <h2> Contact Us </h2>
-    
-    <p>
-        <h5> We strive to provide the best service we could. </h5>
-    </p>
+    </header>
 
-    <p>
-        <h3> Have some questions or concerns? </h3>
-        <h5> We will love to hear from you... </h5>
-    </p>
-    
+    <section class="contactSec">
+        <div class="lead-sentences">
+            <h1 class="heading"> Contact Us</h1>
+            <p class="lead text-muted">
+                <br>
+                <br>
+                We strive to provide the best service possible.
+                <br>
+                <br>
+                Do you have any question about our services?
+                <br>
+                <br>
+            </p>
+        </div>
+    </section>
 
-    <!-- Facebook link, Still need to put the right one. -->
-    <p>
-        <i class="fa fa-facebook-official" style="font-size:36px"> 
-            <a href="https://www.facebook.com" target="_blank">
-                Adex
-            </a>
-          </i>
-    </p>
+    <section class="socials">
+        <div class="social-media" >
+            <p class="lead text-muted">
+                    We will love to hear from you... 
+            </p>
+            <p class="email-line">
+                <a class="btn btn-default" href="mailto:rajiridwan09@gmail.com">
+                <span class="btn-name"> Email Us </span></a>
+            </p>
+            <br>
 
-    <!-- Phone number space, still need to put the right one -->
-    <p>
-        <i class="fa fa-phone" style="font-size:36px"> 
-          306-123-4567 
-        </i>
-    </p>
+            <p class="lead text-muted">
+                    Or follow our socials
+                </p>
 
-      
-
-        <!-- <a href="mailto:rajiridwan09@gmail.com"> Email Us</a> -->
-    
-    <!-- This Email Us button opens a new tab to activate default email client -->
-    <p>
-        This Email Us button opens a new tab to activate/open default email client
-        <button type="button" onclick="sendMail()"> 
-            EMAIL US
-        </button>
-    </p>
-
-    <!-- This Email Us button opens/activate default email client directly -->
-    <p>
-        This Email Us button opens/activate default email client directly
-        <button type="button"> <a href="mailto:rajiridwan09@gmail.com"> 
-            EMAIL US </a> 
-          </button>
-    </p>
+            <p class="facebook-line">
+                <a class="btn btn-default" href="https://www.facebook.com/rillyvisuals">
+                    <i class="fa fa-facebook-square fa-fw"></i>
+                <span class="btn-name"> Facebook </span></a>
+            </p>
+            <p class="facebook-line">
+                    <a class="btn btn-default" href="https://www.facebook.com/rillyvisuals">
+                        <i class="fa fa-facebook-square fa-fw"></i>
+                    <span class="btn-name"> Instagram </span></a>
+                </p>
+        </div>
+    </section>
 
     <script>
       function sendMail() {
