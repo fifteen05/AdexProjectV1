@@ -1,27 +1,47 @@
 /* /* /**
  * index.css
  * - Add any styles you want here!
+* MAKE THE NAV BAR BLUE 
+THE BACKGROUND WHITE 
+ADET  NAV ON THE LEFT
  */
 body {
   padding: 0;
   margin: 0;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 350;
+  font-family: 'PT Sans', open sans;
+  font-size: 15px;
+  font-weight: 250;
   color: #4f5d6e;
   position: relative;
-  background: rgb(26, 49, 95);
- 
+  background: rgb(255, 255, 255);
+  
+}
+/* nav ul li:first-child { float: left; } */
+
+nav ul li { 
+  list-style:none;
+  margin:2px;
+/*   float: right;  */
 }
 
+a:visited {
+  color: yellow;
+}
 
+a:hover {
+    color: hotpink;
+}
+/* ::selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255, 0.2);
+  text-shadow: none;
+}
 
-.navbar-inverse {
-  background-color:#415068;
-  background-image: none;
-  background-repeat: no-repeat;
-  }
-.nav.navbar-nav {
+::-moz-selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255, 0.2);
+} */
+/* .nav.navbar-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -31,6 +51,6 @@ body {
         float: none;
     }
 }
+ */
 
-
- */ */
+  
